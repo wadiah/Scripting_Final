@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>oni-chan</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="client.js" defer></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" type="image/ico" href="oni.ico"/>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"
+
+</head>
+
+<body>
+  <script>
+    document.body.classList.add('fade');
+  </script>
+
+  <section class="intro">
+      <h2 id="he-sleep">He is sleeping...</h2>
+      <p id="feed-him">This is <b>Oni-chan</b>. To wake him up please <u>feed him</u>. He will dispel of all your evil sights.</p>
+      <p>
+        <form method="post">
+          <input name="dream" type="text" maxlength="250" placeholder="Tell me your secrets" aria-labelledby="submit-dream">
+            <button type="submit" id="submit-dream">Enter</button>
+        </form>
+      </p>
+  </section>
+
+  <div align="right">
+    <section class="about">
+        <div class="bubble">
+          The root of the name Oni is from a word meaning “hidden” or “concealed.”
+          Oni are born when truly wicked humans die and end up in one of the many Buddhist Hells, transformed into Oni.
+          Occasionally, when a human is so utterly wicked that his soul is beyond any redemption, he transforms into an oni during life, and remains on Earth to terrorize the living. These transformed oni are the ones most legends tell about, and the ones who pose the most danger to humankind.
+          <p><font size="2pt"><i>made by <a href="http://instagram.com/wadiah.tm">wadiah</a> for lee tusman's scripting class</i></font></div>
+        <img src="me.png" width="40px">
+      </section>
+      </div>
+
+
+  <div class="container">
+      <div align="center">
+        <img id="onisleep" src="onisleep.png">
+        <img id="oniawake" src="oniawake.png">
+
+
+
+
+      </div>
+
+
+      <section class="dreams">
+        <ul id="dreams"></ul>
+      </section>
+    </div>
+
+
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function(e) {
+      document.body.classList.remove('fade');
+    });
+  </script>
+
+</body>
+
+</html>
