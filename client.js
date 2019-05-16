@@ -47,4 +47,5 @@ document.getElementById('submit-dream').onclick = function() {
   document.getElementById("oniawake").style.display = "block";
   document.getElementById("he-sleep").innerHTML = "The oni is awake!";
   document.getElementById("feed-him").innerHTML = "RUN!<p>Oni-chan has listened to your words. Thank you for feeding him. He will help you ward off any future evil spirits.";
+  
 };
